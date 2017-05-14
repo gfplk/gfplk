@@ -1,0 +1,17 @@
+body {
+    background-color: white;
+}
+
+table {
+    margin-top:80px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+h1 {
+    margin:auto;
+}
+
+#register {
+    direction: rtl;
+}

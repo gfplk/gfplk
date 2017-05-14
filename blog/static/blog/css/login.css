@@ -1,0 +1,22 @@
+body {
+	background-color: white;
+}
+
+img {
+	width:100px;
+	height: 30px;
+}
+
+#login {
+	direction: rtl;
+}
+
+table {
+	margin-top:80px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+h1 {
+	margin:auto;
+}

@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>博客 | 主页</title>
+        {% load static %}
+        <link rel="stylesheet" href="{% static 'blog/css/home.css' %}">
+        <script src="{% static 'blog/js/home.js' %}"></script>
+    </head>
+    <body>
+    <div id="header">
+        <div id="logo">
+            <img src="https://ss0.bdstatic.com/94oJfD_bAAcT8t7mm9GUKT-xh_/timg?image&quality=100&size=b4000_4000&sec=1494684260&di=37985230efdf5d01d2f22e84d052ceaa&src=http://img05.tooopen.com/images/20150814/tooopen_sy_137925773637.jpg">
+        </div>
+        <div id="nav">
+            <ul>    
+                <li><a href="#">主页</a></li>
+                <li><a href="#">编程</a></li>
+                <li><a href="#">数据库</a></li>
+                <li><a href="#">缓存</a></li>
+                <li><a href="#">操作系统</a></li>
+                <li><a href="#">产品</a></li>
+                <li><a href="#">运营</a></li>
+                <li><a href="#">管理</a></li>
+                <li><a href="#">名人</a></li>
+                <li><a href="#">日记</a></li>
+                <li><a href="#">相册</a></li>
+                <li><a href="#">留言</a></li>
+            </ul>
+        </div>
+        <div id="account">
+            欢迎您！某某。<a href="#">注销</a>
+        </div>
+    </div>
+    <div id="content">
+        <div id="artilces">
+            <div id="article">
+                <h3>如果这是一个猫世界</h3>
+                <textarea>
+                    如果这是一个猫的世界，那一定很好玩。
+                </textarea>
+            </div>
+        </div>
+        <div id="author_info">
+            <div id="photo">
+            <img src="https://ss0.bdstatic.com/94oJfD_bAAcT8t7mm9GUKT-xh_/timg?image&quality=100&size=b4000_4000&sec=1494684260&di=37985230efdf5d01d2f22e84d052ceaa&src=http://img05.tooopen.com/images/20150814/tooopen_sy_137925773637.jpg">
+            </div>
+            <div id="hot_artilces">
+                <ul>
+                    <li><a href="#">一只爱哭的猫咪</a></li>
+                    <li><a href="#">猫咪的眼神</a></li>
+                    <li><a href="#">猫咪的心理</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <ul>
+            <li>Copyright</li>
+            <li>联系我</li>
+            <li>关于我</li>
+        </ul>
+    </div>
+    </body>
+</html>
